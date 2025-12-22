@@ -1,0 +1,69 @@
+{
+    "label_encoders": {
+        "Country": [
+            "Australia",
+            "Brazil",
+            "China",
+            "France",
+            "Germany",
+            "India",
+            "Japan",
+            "Russia",
+            "UK",
+            "USA"
+        ],
+        "Attack Type": [
+            "DDoS",
+            "Malware",
+            "Man-in-the-Middle",
+            "Phishing",
+            "Ransomware",
+            "SQL Injection"
+        ],
+        "Target Industry": [
+            "Banking",
+            "Education",
+            "Government",
+            "Healthcare",
+            "IT",
+            "Retail",
+            "Telecommunications"
+        ],
+        "Attack Source": [
+            "Hacker Group",
+            "Insider",
+            "Nation-state",
+            "Unknown"
+        ],
+        "Security Vulnerability Type": [
+            "Social Engineering",
+            "Unpatched Software",
+            "Weak Passwords",
+            "Zero-day"
+        ],
+        "Defense Mechanism Used": [
+            "AI-based Detection",
+            "Antivirus",
+            "Encryption",
+            "Firewall",
+            "VPN"
+        ],
+        "Severity": [
+            "High",
+            "Low",
+            "Medium"
+        ]
+    },
+    "model_features": [
+        "Country",
+        "Year",
+        "Attack Type",
+        "Target Industry",
+        "Financial Loss (in Million $)",
+        "Number of Affected Users",
+        "Attack Source",
+        "Security Vulnerability Type",
+        "Defense Mechanism Used",
+        "Incident Resolution Time (in Hours)"
+    ]
+}
